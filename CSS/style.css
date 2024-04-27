@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+margin: 0;
+box-sizing: border-box;
+}
+
+h1,h2{ 
+font-family: "Alfa Slab One", "sans-serif";
+margin-left: 85px;
+margin-top: 50px;
+margin-bottom: 50px;
+color: brown;
+}
+
+p{ 
+font-family: "Montserrat", sans-serif;
+margin-left: 85px;
+margin-top: 50px;
+margin-bottom: 50px;
+}
+
+img{
+border: 1px solid black;
+
+}
+
+header{ 
+font-weight: 400;
+width: 100%;
+
+}
+
+header p{
+margin-bottom: 20px;   
+}
+
+h1 { 
+font-size: 6em;
+margin-top: 100px;
+}
+
+h2{ 
+font-size: 2em;
+margin-top: 200px;
+}
+
+p{
+font-size: 1em;
+font-weight: 600;
+}
+
+a{ 
+font-family: "Montserrat", sans-serif;
+text-decoration: none;
+border: 1px solid;
+padding: 0.5em 1em;
+color: black;
+margin-left: 85px;
+
+}
+
+a:hover{ 
+border-style: dashed;
+background-color: brown;
+color: white;
+}
+
+body{ 
+background-color: blanchedalmond;
+line-height: normal;
+}
+
+/*First Section*/
+section img{ 
+width: 40%;
+margin-right: 40px;
+}
+
+div{ 
+width: 83.33%;
+}
+
+div div{ 
+width: 83.33%;
+margin: auto;
+display: flex;
+justify-content: space-between;
+}
+
+/*Second Section*/
+#section2 img{ 
+width: 60%;
+margin: auto;
+display: block;
+margin-left: 325px;
+}
+
+/*Third Section*/
+#section3 img{ 
+    width: 40%;
+    margin-right: 40px;
+    }
+    
+#section3 div{ 
+    width: 83.33%;
+    }
+    
+#section3 div div{ 
+    width: 83.33%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    }
+
+
+
+footer{ 
+width: 100%;
+height: 100px;
+background-color: brown;
+margin-top: 50px;
+}
+
+
+@media(max-width:786px)
+{body{
+font-size: 0.5em;
+}}
